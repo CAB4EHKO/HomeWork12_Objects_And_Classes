@@ -25,8 +25,6 @@ public class Book {
         this.yearPublished = year;
     }
 
-    public String toString() {
-        return "\"" + title + "\" автор: " + author + "\nИздание " + yearPublished + " г.";
-    }
+
 }
 

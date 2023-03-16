@@ -6,6 +6,6 @@ public class Main {
         Book book2 = new Book("\"Преступление и наказание\"", author2, 1866);
 
         book1.setYearPublished(1869);
-        System.out.println(new Book("Война и мир", author1, 1965));
+
     }
 }

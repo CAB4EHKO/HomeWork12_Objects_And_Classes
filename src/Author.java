@@ -15,7 +15,4 @@ public class Author {
         return lastName;
     }
 
-    public String toString() {
-        return firstName + " " + lastName;
-    }
 }

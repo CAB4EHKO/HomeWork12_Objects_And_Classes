@@ -10,19 +10,23 @@ public class Book {
     }
 
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
     public Author getAuthor() {
-        return author;
+        return this.author;
     }
 
     public int getYearPublished() {
-        return yearPublished;
+        return this.yearPublished;
     }
 
-    public void setYearPublished(int yearPublished) {
-        this.yearPublished = yearPublished;
+    public void setYearPublished(int year) {
+        this.yearPublished = year;
+    }
+
+    public String toString() {
+        return "\"" + title + "\" автор: " + author + "\nИздание " + yearPublished + " г.";
     }
 }
 
